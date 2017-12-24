@@ -5,7 +5,7 @@
         div.container
           div.navbar-brand
             a.navbar-item
-              strong 📻 Musify
+              strong 📻 Musitime
             span.navbar-burger.burger(@click="showNav = !showNav",
              v-bind:class="{ 'is-active' : showNav }")
               span
@@ -20,7 +20,7 @@
 
     .hero-body
       .container.has-text-centered
-        h1.title Musify
+        h1.title Musitime
         h2.subtitle {{ $t('subtitle') }}
 
     .hero-foot
